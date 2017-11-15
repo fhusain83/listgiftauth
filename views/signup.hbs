@@ -1,0 +1,26 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SignUp</title>
+   
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+</head>
+<div class="container">
+  <form method="POST" action="/signup">
+    <h2 class="form-signin-heading">Create an account</h2>
+    <label for="inputUsername"  style="width:300px;">Username</label>
+    <input type="text" id="inputUsername" name="username" class="form-control"  style="width:300px;" placeholder="Username" required autofocus>
+    <label for="inputPassword"  style="width:300px;">Password</label>
+    <input type="password"  style="width:300px;" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+    <label for="inputPassword" class="sr-only">Repeat Password</label>
+    <input type="password" id="inputPassword2" name="password2"  
+    style="width:300px;" class="form-control" placeholder="Repeat Password" required>
+    <button class="btn btn-lg btn-primary btn-block"  style="width:300px;" type="submit">Sign up</button>
+  </form>
+</div>
